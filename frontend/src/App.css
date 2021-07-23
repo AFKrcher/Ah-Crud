@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #0f1216;
+  color:rgb(241, 232, 220);
+}
+
+.gridContainer{
+  margin: 10%;
+  margin-top: 0;
+}
+
+p{
+  font-size: 15px;
+  width: 100%;
+}
+
+.blogTitle{
+  transition: font-size 0.5s;
+}
+
+.blogTitle:hover{
+  cursor:pointer;
+  font-size: 20px;
+}
+
+input{
+  text-align:center;
+  width: 50%;
+}
+
+#submitButton{
+  width: 100%;
+}
+
+.blogPost{
+  min-height: 200px;
+  margin: 10px;
+}
+
+.nestedGrid{
+  min-height: 80%; 
+  width:100%;
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+}
+.inputs#body{
+  height: 7ch;
+}
+
+.inputs#title{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.inputs {
+  width:99%;
+  background-color:rgba(255, 255, 255, 0);
+  color:rgb(241, 232, 220);
+  border: 0px solid #aeaeb500;
+  font-size: 20px;
+  padding: 2px;
+  transition: box-shadow 0.5s;
+}
+.inputs:focus {
+  outline: none;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 1)
+}
+
+
+.nestedInput{
+  width:99%;
+  background-color: rgba(255, 255, 255, 0.06);
+  color:rgb(241, 232, 220);
+  border: 0px solid #aeaeb500;
+  font-size: 20px;
+  padding: 2px;
+  transition: box-shadow 0.5s;
+}
+
+.nestedInput:focus {
+  outline: none;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 1)
+}
